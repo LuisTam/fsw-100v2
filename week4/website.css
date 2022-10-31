@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+   
+    
+}
+nav{
+    background-color: white;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    padding: 20px;
+}
+img{
+    float: right;
+    padding: auto;
+   margin-bottom: 15px;
+
+}
+#div1{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    margin-top: 30px;
+    height: 375px;
+    padding: 10px;
+    margin: 5px;
+    background-image: url("HellcatLogo.jpeg");
+    background-size: 270px;
+}
+.head1{
+    color: red;
+}   
+#div2{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.head2{
+    text-align: center;
+    color: red;
+}
+#p2{
+    color: red;
+    font-family: "oswald", sans-serif;
+}
+ul{
+  font-size: x-large; 
+  text-decoration: underline;
+  list-style-type: none;
+  color: red;
+}
+#head3{
+    text-align: center;
+    display: block;
+    border: 1px solid whitesmoke;
+    margin-right: 950px;
+    margin-top: 25px;
+    height: 600px;
+    width: 500px;
+    padding: 40px;
+    padding-bottom:70px ;
+    color: red;
+}
+#engine{
+    float: inherit;
+}
+#racing{
+    float: right;
+    margin-bottom: 100px;
+}
+table, th, td{
+    border: 1px solid whitesmoke;
+    width: 500px;
+    height: 70px;
+    margin-top: 25px;
+    padding: 15px;
+    color: red;
+}
+#thead{
+    text-align: center;
+    color:red;
+}
+.facts{
+    text-decoration: underline;
+    font-size: larger;
+    color: red;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+footer{
+    text-align: center;
+    color: red;
+}
