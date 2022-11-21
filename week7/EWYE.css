@@ -1,0 +1,175 @@
+body{
+    background-color: red;
+}
+.box{
+    width: auto;
+    height: auto;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.navBox{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 60px;
+    background-color: orange;
+    grid-column: 1 / 3;
+    transition: all 1s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBox:hover{
+    border-radius: 15px;
+    background-color: lightblue;
+}
+.tH{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.bir{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.enchi{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.caldo{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.torta{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.hua{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.taco{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+}
+.gorditas{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+ }
+ .logo{
+    grid-column: 1 / 3;
+    width: 100%;
+    margin-top: 15px;
+ }
+.end{
+    grid-column: 1 / 3;
+    background-color: yellow;
+    margin-top: 15px
+}
+#like{
+    text-align: center;
+    font-size: large;
+    color: orange;
+}
+.bottomFooter{
+    margin-top: 15px;
+    grid-column: 1 / 3;
+    background-color: orange;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .grid-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .navBox{
+        grid-column: 1 / 5;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .tH{
+        grid-column: 1 / 3;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+
+    }
+    .bir{
+        grid-column: 3 / 5;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+    }
+    .enchi{
+        grid-column: 1 / 3;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+    }
+    .caldo{
+        grid-column: 3 / 5;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+    }
+    .torta{
+        grid-column: 1 / 3;
+        width: 98%;
+        margin-top: 15px;
+        height: auto;
+    }
+    .hua{
+        grid-column: 3 / 5;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+    }
+    .taco{
+        grid-column: 1 / 3;
+        width: 98%;
+        margin-top: 15px;
+    }
+    .gorditas{
+        grid-column: 3 / 5;
+        width: 98%;
+        margin-top: 15px;
+        min-height: 100%;
+     }
+     .logo{
+        grid-column: 1 / 5;
+        width: 100%;
+        margin-top: 25px;
+     }
+    .end{
+        grid-column: 1 / 5;
+        background-color: yellow;
+        margin-top: 15px
+    }
+    #like{
+        text-align: center;
+        font-size: large;
+        color: orange;
+    }
+    .bottomFooter{
+        margin-top: 15px;
+        grid-column: 1 / 5;
+        background-color: orange;
+        text-align: center;
+    }
+    
+}
